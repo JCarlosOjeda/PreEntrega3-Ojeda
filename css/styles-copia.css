@@ -25,7 +25,7 @@ body {
 /*---Titulos(h2)---*/
 
 .titulosh2 {
-    color: #07a837;
+    color: $color-1;
     font-size: 2rem;
     font-style: oblique;
     text-decoration: underline 2px;
@@ -36,7 +36,7 @@ body {
 
 /*---Titulos(h3)---*/
 .titulosh3{
- color: #07a837;
+ color: $color-1;
  text-align: center;
  font-size: 1.5rem;
  font-weight: 600;
@@ -45,7 +45,7 @@ body {
 /*---Header---*/
 
 .header {
-    background-color: #07a837;
+    background-color: $color-1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +94,6 @@ nav ul {
         flex-direction: column;
         width: 200px;
             }
-             
             header nav ul li{ 
                 text-align: right;
             }
@@ -125,10 +124,6 @@ nav ul {
 }
 
 /*---Carousel---*/
-/*
-.carousel-inner {
-    height: 460px;
-}*/
 
 .carousel-inner img {
     width: 100%;
@@ -143,7 +138,7 @@ nav ul {
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #07a837;
+    background-color: $color-1;
     align-items: center;
 
 }
@@ -241,7 +236,7 @@ footer nav ul li a {
     padding: 20px 30px;
     margin: auto;
     margin-top: 10px;
-    background-color: #07a837;
+    background-color: $color-1;
 }
 
 .formTituloContacto {
@@ -308,5 +303,5 @@ footer nav ul li a {
     padding: 100px;
 }
 .colorprimario {
-    background-color: #07a837; 
+    background-color: $color-1; 
 }

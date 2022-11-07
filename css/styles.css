@@ -93,10 +93,12 @@ nav ul {
     header nav ul {
         flex-direction: column;
         width: 200px;
+            }
+             
+            header nav ul li{ 
+                text-align: right;
+            }
 
-
-
-    }
 
     .marca__imagen {
         width: 300px;
@@ -113,7 +115,7 @@ nav ul {
     }
 
     .navbar__item :hover {
-        color: rgb(255, 102, 0);
+        color: yellow;
     }
 }
 
@@ -123,14 +125,15 @@ nav ul {
 }
 
 /*---Carousel---*/
-
+/*
 .carousel-inner {
     height: 460px;
-}
+}*/
 
 .carousel-inner img {
     width: 100%;
     height: 460px;
+    object-fit: cover;
 }
 
 

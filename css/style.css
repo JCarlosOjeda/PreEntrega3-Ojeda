@@ -102,7 +102,6 @@ nav ul {
     font-size: 4rem;
   }
   .navbar__item a {
-    color: rgb(255, 251, 212);
     font-size: 1.5rem;
   }
   .navbar__item :hover {
@@ -129,7 +128,6 @@ footer nav ul li {
   padding: 10px;
   align-items: baseline;
 }
-
 footer nav ul li a {
   font-size: 1rem;
   color: rgb(255, 251, 212);
@@ -140,7 +138,6 @@ footer nav ul li a {
 .redes {
   padding: 10px;
 }
-
 .redes a {
   color: yellow;
   font-size: 2rem;
@@ -196,18 +193,6 @@ footer nav ul li a {
   gap: 10px;
 }
 
-@media (min-width: 1200px) {
-  .galeria {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
-  }
-  .galeria__imagen:hover {
-    transform: scale(1.3);
-    box-shadow: 5px 10px 40px black;
-  }
-}
 .galeria__caja {
   width: 350px;
   height: fit-content;
@@ -221,9 +206,21 @@ footer nav ul li a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition-duration: 0.3s;
 }
 
+@media (min-width: 1200px) {
+  .galeria {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .galeria__imagen:hover {
+    transform: scale(1.3);
+    box-shadow: 5px 10px 40px black;
+    transition-duration: 0.3s;
+  }
+}
 /*--Galeria--*/
 @media (min-width: 1200px) {
   .imagen_galeria:hover {

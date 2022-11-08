@@ -21,9 +21,10 @@ nav ul {
     margin-top: 10px;
 }
 
+
 .marca__title {
     font-size: 1.8rem;
-    color: rgb(255, 251, 212);
+    color: $color-3;
     font-weight: 600;
 }
 
@@ -33,7 +34,7 @@ nav ul {
 }
 
 .navbar__item a {
-    color: rgb(255, 251, 212);
+    color: $color-3;
     font-size: 0.8rem;
     padding: 3px;
 }
@@ -70,6 +71,6 @@ nav ul {
     }
 
     .navbar__item :hover {
-        color: yellow;
+        color: $color-2;
     }
 }

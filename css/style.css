@@ -251,6 +251,14 @@ footer nav ul li a {
   .mapaContenedor {
     gap: 100px;
   }
+  .mapa:hover {
+    transform: scale(1.5) translate(40%);
+    transition-duration: 1s;
+  }
+  .mapa1:hover {
+    transform: scale(1.5) translate(-40%);
+    transition-duration: 1s;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

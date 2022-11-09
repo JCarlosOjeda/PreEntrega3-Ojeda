@@ -192,7 +192,6 @@ footer nav ul li a {
   align-items: center;
   gap: 10px;
 }
-
 .galeria__caja {
   width: 350px;
   height: fit-content;
@@ -201,7 +200,6 @@ footer nav ul li a {
   align-items: center;
   gap: 10px;
 }
-
 .galeria__imagen {
   width: 100%;
   height: 100%;

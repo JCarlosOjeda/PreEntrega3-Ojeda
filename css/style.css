@@ -258,5 +258,11 @@ footer nav ul li a {
     transition-duration: 1s;
   }
 }
+/* --Quienes-- */
+.verdeM {
+  color: #07a837;
+  font-style: oblique;
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=style.css.map */
